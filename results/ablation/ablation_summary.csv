@@ -1,0 +1,14 @@
+Experiment,Parameters,Final Val Loss,Best Val Loss,Final Val PPL
+attention_heads_2,"5,569,074",0.0110,0.0067,1.0110
+attention_heads_4,"5,569,074",0.0087,0.0049,1.0087
+attention_heads_8,"5,569,074",0.0062,0.0058,1.0062
+layers_2,"3,725,874",0.0099,0.0059,1.0100
+layers_3,"5,569,074",0.0062,0.0058,1.0062
+layers_4,"7,412,274",0.0067,0.0052,1.0067
+layers_6,"11,098,674",0.0048,0.0048,1.0048
+model_size_d128_ff512,"1,408,306",0.0045,0.0043,1.0045
+model_size_d256_ff1024,"5,569,074",0.0050,0.0050,1.0050
+model_size_d512_ff2048,"22,148,146",0.0184,0.0133,1.0185
+position_encoding_sinusoidal,"5,569,074",0.0062,0.0058,1.0062
+position_encoding_relative,"5,581,554",0.0074,0.0052,1.0074
+position_encoding_learnable,"8,129,074",0.0035,0.0035,1.0036
