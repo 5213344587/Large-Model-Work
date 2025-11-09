@@ -1,0 +1,23 @@
+{
+  "task": "copy",
+  "num_samples": 10000,
+  "seq_len": 10,
+  "vocab_size": 50,
+  "d_model": 256,
+  "n_heads": 8,
+  "num_encoder_layers": 3,
+  "num_decoder_layers": 3,
+  "d_ff": 1024,
+  "dropout": 0.1,
+  "use_relative_position": false,
+  "use_learnable_pe": false,
+  "batch_size": 64,
+  "num_epochs": 50,
+  "lr": 0.0001,
+  "warmup_steps": 4000,
+  "max_grad_norm": 1.0,
+  "label_smoothing": 0.1,
+  "seed": 42,
+  "device": "cpu",
+  "save_dir": "../checkpoints"
+}
